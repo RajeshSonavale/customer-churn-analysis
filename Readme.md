@@ -26,26 +26,22 @@ Developed an end-to-end customer churn analytics solution that transforms raw Te
 ## 📁 Project Structure
 
 ```
-customer-churn-project/
-│
-├── data/
-│   ├── raw/
-│   │   └── telco_churn.csv
-│   ├── cleaned/
-│       └── cleaned_telco_churn.csv
-│
-├── notebook/
-│   ├── data_cleaning.ipynb
-│   ├── model_building.ipynb
-│
-├── sql/
-│   ├── schema.sql
-│   ├── churn_analysis.sql
-│
-├── dashboard/
-│   └── churn_dashboard.pbix
-│
-└── README.md
+📊 Telco Customer Churn Dataset
+            │
+            ▼
+🐍 Python (Data Cleaning & Feature Engineering)
+            │
+            ▼
+🗄️ MySQL (Star Schema & Business Analysis)
+            │
+            ▼
+🤖 Machine Learning (Logistic Regression & Random Forest)
+            │
+            ▼
+📊 Power BI Dashboard
+            │
+            ▼
+💼 Business Insights & Retention Strategy
 ```
 
 ---
@@ -101,27 +97,36 @@ customer-churn-project/
 
 The Power BI dashboard provides a comprehensive view of customer churn through KPI monitoring, churn driver analysis, customer segmentation, and retention insights. It enables stakeholders to identify high-risk customer groups, analyze churn patterns, and support data-driven customer retention strategies.
 
-### 📌 Executive Summary
 
-![Executive Summary](images/executive_summary.png)
+### 📈 Executive Summary
 
-### 📉 Churn Driver Analysis
+Provides a high-level overview of customer churn performance, including total customers, churn rate, revenue at risk, customer distribution, and key business KPIs.
 
-![Churn Driver Analysis](images/churn_driver_analysis.png)
+![Executive Summary](dashboard/executive_summary.png)
+
+---
 
 ### 👥 Customer Segmentation
 
-![Customer Segmentation](images/customer_segmentation.png)
+Analyzes customer segments based on demographics, contract type, tenure, payment method, and service usage to identify high-risk customer groups and retention opportunities.
 
-### 💡 Insights & Retention
+![Customer Segmentation](dashboard/customer_segmentaions.png)
 
-![Insights & Retention](images/insights_retention.png)
+---
 
+### 📉 Churn Driver Analysis
 
+Identifies the key factors influencing customer churn through interactive visualizations, highlighting the impact of contract type, monthly charges, internet service, payment methods, and other business drivers.
 
+![Churn Driver Analysis](dashboard/churn_driver_analysis.png)
 
-[![Dashboard](dashboard/dashboard.png)](dashboard/dashboard.png)
+---
 
+### 💡 Insights & Recommendations
+
+Summarizes the primary churn drivers and provides actionable recommendations to improve customer retention, reduce revenue loss, and support data-driven decision-making.
+
+![Insights & Recommendations](dashboard/insights_recommendations.png)
 
 --- 
 ## 📈 Key KPIs
