@@ -197,25 +197,22 @@ Customer-Churn-Analysis/
 │   ├── raw/
 │   │   └── telco_customer_churn.csv
 │   └── processed/
-│       └── cleaned_customer_churn.csv
+│       └── cleaned_telco_churn.csv
 │
 ├── notebooks/
 │   ├── data_cleaning_and_eda.ipynb
 │   └── churn_prediction_models.ipynb
 │
 ├── sql/
-│   ├── create_star_schema.sql
-│   └── churn_business_analysis.sql
-│
+│   ├──customer_churn_star_schema_and_insights.sql
+│   
 ├── dashboard/
 │   └── customer_churn_dashboard.pbix
-│
-├── images/
 │   ├── executive_summary.png
 │   ├── churn_driver_analysis.png
 │   ├── customer_segmentation.png
-│   ├── insights_retention.png
-│   └── solution_architecture.png
+│   ├── insights_recomendations.png
+│  
 │
 └── README.md
 
